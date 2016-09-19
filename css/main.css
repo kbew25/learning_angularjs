@@ -1,0 +1,31 @@
+/*.sun {
+  fill: yellow !important;
+  background: yellow;
+}*/
+body {
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+}
+
+h2:after {
+  content: "";
+  border-top: 1px solid #ccc;
+  display: block;
+  width: 60px;
+  margin-top: 15px;
+}
+
+hr {
+  border: 0 solid #ccc;
+  border-top-width: 1px;
+  margin: 20px 0;
+}
+
+input[type="email"].ng-invalid  {
+  border-color: red !important;
+}
+
+input[type="email"].ng-valid {
+  border-color: green !important;
+}
